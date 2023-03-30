@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
   <body>
-     {{ content }}
 
-     {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+    {% include header.html %}
 
-     {% include carousel.html height="50" unit="%" duration="7" number="2" %}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    {% include slider_scripts.html %}
 
   </body>
+
 </html>
