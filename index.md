@@ -1,6 +1,17 @@
 ---
 title: My page
 layout: default
+carousels:
+  - images: 
+    - image: /images/beans.jpg
+    - image: /images/bg.jpg
+    - image: /images/desk.jpg
+    - image: /images/location.jpg
+  - images: 
+    - image: /uploads/slider/image5.jpg
+    - image: /uploads/slider/image6.jpg
+    - image: /uploads/slider/image7.jpg
+    - image: /uploads/slider/image8.jpg
 ---
 
 # {{ page.title }} - {{ site.name }}
