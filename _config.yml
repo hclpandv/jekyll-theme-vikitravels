@@ -4,7 +4,8 @@ baseurl: "/jekyll-theme-vikitravels"
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 exclude:
